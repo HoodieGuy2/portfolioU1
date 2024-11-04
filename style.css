@@ -1,0 +1,42 @@
+body {
+  margin: 10px auto;
+  width: 600px;
+  background-color: white;
+  padding: 50px;
+  border: solid black 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+html {
+  background-color: darkgray;
+}
+
+#mainTable {
+  background-color: gainsboro;
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#www {
+  width: 300px;
+  margin: auto;
+}
+
+.tableCollection {
+  width: 105px;
+  height: 105px;
+  border: 2px black solid;
+  list-style: none;
+  transition: width, height 1s;
+}
+
+.tableCollection:hover {
+  width: 120px;
+  height: 120px;
+  border: 2px black solid;
+  list-style: none;
+  transition: width, height 1s;
+}
